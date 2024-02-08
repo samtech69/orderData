@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.list-color{
+    background-color: blue;
+    color: white;
+    padding-top: 100px;
+    height: 100vh;
+    
+}
+
+.pic{
+    text-decoration: none;
+    color: black;
+}
+
+.hidden-list{
+    display:none;
+}
+.spany{
+    float: right;
+}
+.list-color span{
+    position: relative;
+    top: 10px;
+    padding: 10px 10px;
+   
+}
+.list-color li{
+    overflow-y: hidden;
+}
+.hidden-list li{
+    padding: 5px 0px;
+}
+.list-color ul li{
+    color: whitesmoke;
+}
+.hidden-list ul li{
+    color: rgb(255, 255, 255);
+    opacity: 60%;
+}
+.navbar-toggler{
+    display: block !important;
+    border: none;
+
+}
+
+.navbar-toggler:hover{
+    color: white;
+    
+}
+.sizes th{
+    padding: 3px 20px;
+    background-color: black;
+    color: white;
+
+}
+.sizes td{
+    text-align: center;
+}
+
+.list-color ul li a{
+    text-decoration: none;
+    color: white;
+}
