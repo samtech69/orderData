@@ -78,7 +78,7 @@
 
 
     .list-color{
-        height: 100vh;
+        height: 150vh;
 
       }
       .upperthree{
@@ -93,4 +93,8 @@
     .chartz{
         width: 150px;
     }
+    .list-color{
+        height: 200vh;
+
+      }
 }

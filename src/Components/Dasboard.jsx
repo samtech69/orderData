@@ -16,9 +16,9 @@ export default function Dasboard() {
                             <button className='btn btn-primary btn-sm mb-3 me-3' style={{ float: "right" }}>create order</button>
                         </div>
 
-                        <div style={{ border: "1px solid black", margin: '40px 0px' }}>
+                        <div className='px-3' style={{ border: "1px solid black", margin: '40px 0px' }}>
                             <div className="row">
-                                <div className="col-md-6">
+                                <div className=" col-md-6">
                                     <h6 className='py-4 px-2'>Current Month Orders</h6>
                                     <p className='py-1'><span className='text-success ms-2'>12%<span class="material-symbols-outlined py-1" style={{ position: "relative", top: "7px", fontSize: "20px" }}>
                                         arrow_upward
@@ -26,7 +26,7 @@ export default function Dasboard() {
                                     <button className='btn btn-primary ms-5 my-2 btn-sm'>View More</button>
 
                                 </div>
-                                <div className="col-md-6">
+                                <div className=" col-md-6">
                                     <PieChart />
                                 </div>
                                 <p className='px-2 ps-4'>View All Shipments page to get the detailed information.</p>

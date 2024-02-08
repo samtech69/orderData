@@ -22,9 +22,9 @@ class OrderPieChart extends React.Component {
           dataKey="value"
           isAnimationActive={false}
           data={this.state.orders}
-          cx={80}
-          cy={100}
-          outerRadius={80}
+          cx={55}
+          cy={90}
+          outerRadius={50}
           fill="#8884d8"
           label
         >
