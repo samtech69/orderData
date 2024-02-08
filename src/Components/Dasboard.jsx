@@ -36,29 +36,29 @@ export default function Dasboard() {
                     <div className="col-md-8">
 
                         <div className="row">
-                            <div className="col-md-3 ms-4" style={{ border: "1px solid black"}}>
+                            <div className="col-md-3 m-2 upperthree" style={{ border: "1px solid black"}}>
                                 <h6 className='py-1 text-primary'>ORDERS</h6>
                                 <div className="row">
                                     <div className="col-md-6"><h6 className='py-1'>#210</h6></div>
-                                    <div className="col-md-6"><span class="p-3 mb-4 material-symbols-outlined bg-primary text-white" style={{ float:"right",  borderRadius: "50%" }}>
+                                    <div className="col-md-6"><span class="p-3 mb-4 material-symbols-outlined bg-primary text-white" style={{  borderRadius: "50%" }}>
                                         storefront
                                     </span></div>
                                 </div>
                             </div>
-                            <div className="col-md-3 mx-2" style={{ border: "1px solid black"}}>
+                            <div className="col-md-3 m-2 upperthree" style={{ border: "1px solid black"}}>
                                 <h6 className='py-1 text-primary'>NDR</h6>
                                 <div className="row">
                                     <div className="col-md-6"><h6 className='py-1'>#147</h6></div>
-                                    <div className="col-md-6"><span class="p-3 mb-4 material-symbols-outlined bg-primary text-white" style={{ float:"right",  borderRadius: "50%" }}>
+                                    <div className="col-md-6"><span class="p-3 mb-4 material-symbols-outlined bg-primary text-white" style={{  borderRadius: "50%" }}>
                                         warning
                                     </span></div>
                                 </div>
                             </div>
-                            <div className="col-md-3 mx-2" style={{ border: "1px solid black"}}>
+                            <div className="col-md-3 m-2 upperthree" style={{ border: "1px solid black"}}>
                                 <h6 className='py-1 text-primary'>COD</h6>
                                 <div className="row">
                                     <div className="col-md-6"><h6 className='py-1'>Rs. 12792.00</h6></div>
-                                    <div className="col-md-6"><span class="p-3 mb-4 material-symbols-outlined bg-primary text-white" style={{ float:"right",  borderRadius: "50%" }}>
+                                    <div className="col-md-6"><span class="p-3 mb-4 material-symbols-outlined bg-primary text-white" style={{  borderRadius: "50%" }}>
                                         currency_rupee
                                     </span></div>
                                 </div>
@@ -66,7 +66,7 @@ export default function Dasboard() {
 
                         </div>
                         <div className="row">
-                            <div className="col-md-10" style={{border: "1px solid black", margin: '40px 10px',padding: '20px 10px' }}>
+                            <div className="col-md-10 chartz" style={{border: "1px solid black", margin: '40px 10px',padding: '20px 10px' }}>
                                 <h5 className='py-1'>Month Wise Order</h5>
                                 <canvas id="BarChart" ></canvas>
 

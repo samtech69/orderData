@@ -30,10 +30,6 @@ export default function Sidebar() {
                                     </span>Dashboard</a></li>
 
 
-
-
-
-
                                     <li ><span class="material-symbols-outlined fs-4 py-2">
                                         orders
 

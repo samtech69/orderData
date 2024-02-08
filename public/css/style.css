@@ -65,3 +65,32 @@
     text-decoration: none;
     color: white;
 }
+
+.upperthree{
+    width: 250px;
+}
+.chartz{
+    width: 90%;
+}
+
+
+@media screen and (max-width: 1024px)  {
+
+
+    .list-color{
+        height: 100vh;
+        background-color: yellowgreen;
+      }
+      .upperthree{
+        width: 150px;
+        background-color: yellowgreen;
+    }
+    
+}
+
+@media screen and (max-width: 600px)  {
+
+    .chartz{
+        width: 150px;
+    }
+}
